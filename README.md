@@ -28,6 +28,8 @@ Compressing file compress(): Following are the steps followed to compress the in
 encodedFile
 minHeap = ({character data} {huffman code for that character}) * minheapsize
 
+![image](https://github.com/palakpatel01/Huffman-coding-implementation-on-Text-Files/assets/136109031/ec3714b8-03db-4961-800b-b1646ef54b5d)
+
 {huffman code for that character} = 128 bits divided into 16 decimal numbers. Every number represents 8 bit binary number.
 eg: {127 - code.length()} * '0' + '1' (representing start bit) + code = 128 bits
 It is converted to 16 * 8-bit decimal numbers = 128 bits
